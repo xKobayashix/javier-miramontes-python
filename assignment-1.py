@@ -14,12 +14,21 @@ print(is_student, type(is_student))
 name = input("What is your name? ")
 birth_year = int(input("What year were you born in? "))
 
-age = int(input("What is your age? "))
+current_year = 2026
+age = current_year - birth_year
 
 print(name, type(name))
 print("Hi, everyone! This is", name + "! He is", age, "years old.")
 
-# Section 3 and 4: Type Conversion and f-strings and Formatted Receipt
+# Section 3 Type Conversion and f-strings 
+
+number1 = float(input("Enter the first number: "))
+number2 = float(input("Enter the second number: "))
+
+product = number1 * number2
+print(f"The product is {product}")
+
+#Section 4: Type Conversion and f-strings and Formatted Receipt
 
 # Store items 
 
